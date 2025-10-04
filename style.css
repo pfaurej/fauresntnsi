@@ -43,6 +43,11 @@ main {
     text-decoration: underline;
 }
 
+.message-futur {
+    font-style: italic;
+    color: #777;
+}
+
 footer {
     background-color: #333;
     color: white;
