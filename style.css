@@ -1,0 +1,52 @@
+/* Styles simples pour ton site */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.pdf-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pdf-section li {
+    margin: 0.5rem 0;
+}
+
+.pdf-section a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.pdf-section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
