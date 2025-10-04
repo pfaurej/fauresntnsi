@@ -9,25 +9,41 @@
 <body>
     <header>
         <h1>Bienvenue sur mon site</h1>
-        <p>Voici une base simple pour GitHub Pages.</p>
+        <p>Voici une base simple pour GitHub Pages avec du contenu programmé.</p>
     </header>
 
     <main>
+        <!-- Section PDF immédiate -->
         <section class="pdf-section">
             <h2>Télécharger nos PDF</h2>
             <ul>
-                <li><a href="pdf/cours_web.pdf">📄 Exemple PDF</a></li>
-                <!-- Ajoute d'autres PDF ici -->
+                <li><a href="pdf/exemple.pdf">📄 Exemple PDF</a></li>
             </ul>
+        </section>
+
+        <!-- Section PDF à date spécifique -->
+        <section class="pdf-section" id="section-futur">
+            <h2>PDF à venir</h2>
+            <ul>
+                <li><a href="pdf/futur.pdf">📄 Futur PDF</a></li>
+            </ul>
+            <p class="message-futur">Ce contenu sera visible bientôt !</p>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Mon Site GitHub Pages</p>
     </footer>
+
+    <script>
+        // Date à partir de laquelle la section sera visible
+        const dateDebut = new Date("2025-10-10T00:00:00");
+        const maintenant = new Date();
+
+        if (maintenant < dateDebut) {
+            // Masquer la section si la date n'est pas encore atteinte
+            document.getElementById("section-futur").style.display = "none";
+        }
+    </script>
 </body>
 </html>
-
-
-
-
